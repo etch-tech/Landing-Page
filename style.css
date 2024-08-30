@@ -143,7 +143,7 @@ So I kept it default even though it looks slighty more gray in result pic. */
     font-size: 24px;
     font-weight: 900;
     margin-top: 0;
-    margin-right: 10px;
+    margin-right: 40px;
     display: flex;
     flex-direction: row-reverse;
     align-self: flex-end;
