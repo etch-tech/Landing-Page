@@ -12,7 +12,7 @@ a, .subtext-01, .action-subtext {
 }
 
 .phase-01 {
-    background-color: #351e1b;
+    background-color: #1a2e1e;
     margin: 0;
     padding: 0;
 }
@@ -115,6 +115,8 @@ So I kept it default even though it looks slighty more gray in result pic. */
     height: auto;
     width: 200px;
     border-radius: 12px;
+    border: #1db818;
+    border-style: solid;
 }
 
 .phase-03 {
@@ -177,7 +179,7 @@ margin: 100px;
 }
 
 .footer {
-    background-color: #351e1b;
+    background-color: #1d3622;
     padding: 18px;
     display: flex;
     justify-content: center;
