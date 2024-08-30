@@ -1,11 +1,11 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-a, .subtext-01 {
+a, .subtext-01, .action-subtext {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -56,18 +56,18 @@ a, .subtext-01 {
 }
 
 .subtext-01 {
-    display: flex;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-.sign-up {
-    background-color: #03dd4c;
+.sign-up, .action-sign-up {
+    background-color: #1db818;
     color: #F9FAF8;
     font-weight: 900;
     font-size: 18px;
-    padding: 10px 32px;
-    border-radius: 12px;
+    padding: 8px 28px;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .phase-01-img {
@@ -75,14 +75,13 @@ a, .subtext-01 {
     display: flex;
 }
 
-
-
 .phase-02 {
     display: flex;
     flex-direction: column;
     height: auto;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .header-phase-02 {
@@ -133,7 +132,7 @@ So I kept it default even though it looks slighty more gray in result pic. */
 }
 
 .quote {
-    color: #1F2937;
+    color: #1f2937;
     font-size: 36px;
     margin-bottom: 0;
 }
@@ -146,4 +145,45 @@ So I kept it default even though it looks slighty more gray in result pic. */
     display: flex;
     flex-direction: row-reverse;
     align-self: flex-end;
+}
+
+.phase-04 {
+margin: 100px;
+}
+
+.action-bg {
+    background-color: #1db818;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action-main-text {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.action-subtext {
+    margin: 0;
+}
+
+.action-sign-up {
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #351e1b;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #E5E7EB;
 }
