@@ -71,7 +71,7 @@ a, .subtext-01, .action-subtext {
 }
 
 .phase-01-img {
-    height: 260px;
+    height: 240px;
     display: flex;
 }
 
@@ -121,7 +121,7 @@ So I kept it default even though it looks slighty more gray in result pic. */
 
 .phase-03 {
     background-color: #E5E7EB;
-    padding: 60px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,16 +150,22 @@ So I kept it default even though it looks slighty more gray in result pic. */
 }
 
 .phase-04 {
-margin: 100px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .action-bg {
     background-color: #1db818;
-    padding: 50px 100px;
+    padding: 50px 20px;
     border-radius: 8px;
+    width: 1000px;
+}
+
+.action-content {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-around;
 }
 
 .action-main-text {
@@ -176,6 +182,7 @@ margin: 100px;
 .action-sign-up {
     border-color: #F9FAF8;
     border-style: solid;
+    margin: 0;
 }
 
 .footer {
