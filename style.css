@@ -38,9 +38,8 @@ a, .subtext-01, .action-subtext {
 
 .content-phase-01 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 100px;
-    gap: 18px;
 }
 
 .content-left {
